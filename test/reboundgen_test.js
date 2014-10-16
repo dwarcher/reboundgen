@@ -39,6 +39,6 @@ exports['generate'] = {
 exports['generateFromFile'] = function(test) {
     test.expect(1);
     // tests here
-    test.ok(reboundgen.generateFromFile("test/data.json"), 'Completed successfully');
+    test.ok(reboundgen.generateFromFile("data/data.json"), 'Completed successfully');
     test.done();
   };

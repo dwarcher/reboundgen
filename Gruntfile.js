@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    animationData: grunt.file.readJSON("test/data.json"),
+    animationData: grunt.file.readJSON("data/data.json"),
     nodeunit: {
       files: ['test/**/*_test.js'],
     },
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
         tasks: [ 'build' ]
       },
       animations: {
-        files: [ 'test/data.json', 'examples/styles.scss' ],
+        files: [ 'data/data.json', 'examples/styles.scss' ],
         tasks: [ 'build' ]
       },
       html: {
