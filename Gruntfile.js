@@ -29,12 +29,14 @@ module.exports = function(grunt) {
         }
       }
     },
+    cssmin: {
+      dist: {
+        files: [{
+          'examples/styles.min.css': 'examples/styles.css'
+        }]
+      }
+    },
     'compile-handlebars': {
-      styles: {
-        template: 'examples/styles.scss.handlebars',
-        templateData: '<%= animationData %>',
-        output: 'examples/styles.scss'
-      },
       example: {
         template: 'examples/index.handlebars',
         templateData: '<%= animationData %>',
@@ -59,7 +61,8 @@ module.exports = function(grunt) {
         tasks: [ 'build' ]
       },
       html: {
-        files: [ 'examples/index.html'],
+        files: [ 'examples/index.handlebars'],
+        tasks: [ 'compile-handlebars' ],
         options: {
             livereload: true,
         }
@@ -73,9 +76,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-compile-handlebars');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Default task.
-  grunt.registerTask('build', ['nodeunit', 'compile-handlebars', 'sass', ]);
+  grunt.registerTask('build', ['nodeunit', 'compile-handlebars', 'sass', 'cssmin' ]);
   grunt.registerTask('default', ['nodeunit']);
 
 };

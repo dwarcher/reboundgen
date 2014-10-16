@@ -8,8 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+          <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+          <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600,700,700italic,900,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="styles.css">
+
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -17,12 +21,29 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>
-            {{#each animations}}
-                <code>.{{name}}</code>
-                <div class="testItem" data-anim="{{name}}"></div>
-            {{/each}}
-        </p>
+        <article class="type-system-sans">
+            <div class="hero-container">
+                <div class="hero">
+                    <h1>ReboundGen</h1>
+                    <h2>Editable CSS3 animations calculated using SCIENCE</h2>
+                    <p>
+                        ReboundGen calculates springy CSS3 Keyframe animations based on a few simple parameters you define. It uses Facebook's Rebound.js for the calculations and outputs SCSS style sheets. Each animation is a seperate style sheet, so you can import just the ones you need.
+                    </p>
+                </div>
+            </div>
+            <p>
+                
+            <div class="animations-container">
+                {{#each animations}}
+                <div class="example-container">
+                    <code>.{{name}}</code>
+                    <div class="animation-example" data-anim="{{name}}"></div>
+                </div>
+                {{/each}}
+            </div>
+                
+            </p>
+        </article>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -38,7 +59,7 @@
 
         <script>
             $(function() {
-            $(".testItem").on('mouseover', function() {
+            $(".animation-example").on('mouseover', function() {
                 var anim = $(this).attr("data-anim");
                 $(this).removeClass(anim);
                 $(this).addClass(anim);

@@ -1,4 +1,5 @@
 { 
+	"outputFolder": "tmp/",
 	"animations": 
 	[
 		{
@@ -6,6 +7,7 @@
 			"name": "bounceInRight",
 			"tension": 50,
 			"friction": 5,
+			"fadeIn": 150,
 			"hardBounce": true,
 			"bounceDamp": 0.4,
 			"properties": {
@@ -13,11 +15,41 @@
 					"start": 500, 
 					"end": 0 
 				}
-			},
-			"outputFolder": "tmp/"
+			}
 		},
 		{
-			"name": "flowInRight",
+			"steps": 50,
+			"name": "bounceInLeft",
+			"tension": 50,
+			"friction": 1,
+			"fadeIn": 150,
+			"hardBounce": true,
+			"bounceDamp": 0.4,
+			"properties": {
+				"translateX": { 
+					"start": -500, 
+					"end": 0 
+				}
+			}
+		},
+		{
+			"steps": 50,
+			"name": "bounceInDown",
+			"tension": 50,
+			"friction": 1,
+			"fadeIn": 150,
+			"hardBounce": true,
+			"bounceDamp": 0.4,
+			"properties": {
+				"translateY": { 
+					"start": -500, 
+					"end": 0 
+				}
+			}
+		},
+		{
+			"name": "glideInRight",
+			"fadeIn": 300,
 			"tension": 25,
 			"friction": 10,
 			"hardBounce": false,
@@ -26,8 +58,20 @@
 					"start": 500, 
 					"end": 0 
 				}
-			},
-			"outputFolder": "tmp/"
+			}
+		},
+		{
+			"name": "glideInLeft",
+			"fadeIn": 300,
+			"tension": 25,
+			"friction": 10,
+			"hardBounce": false,
+			"properties": {
+				"translateX": { 
+					"start": -500, 
+					"end": 0 
+				}
+			}
 		},
 		{
 			"name": "bounceInScale",
@@ -35,6 +79,7 @@
 			"friction": 5,
 			"hardBounce": false,
 			"bounceDamp": 0.5,
+			"fadeIn": 100,
 			"properties": {
 				"scaleX": { 
 					"start": 0, 
@@ -44,8 +89,7 @@
 					"start": 0, 
 					"end": 1.00 
 				}
-			},
-			"outputFolder": "tmp/"
+			}
 		},
 		{
 			"steps": 60,
@@ -54,6 +98,7 @@
 			"friction": 3,
 			"hardBounce": false,
 			"initialVelocity": 20,
+			"fadeIn": 100,
 			"properties": {
 				"scaleX": { 
 					"start": 0, 
@@ -63,8 +108,27 @@
 					"start": 0, 
 					"end": 1.00 
 				}
-			},
-			"outputFolder": "tmp/"
+			}
+		},
+		{
+			"name": "springScaleOut",
+			"tension": 30,
+			"friction": 5,
+			"hardBounce": false,
+			"bounceDamp": 0.5,
+			"fadeOut": 500,
+			"properties": {
+				"scaleX": { 
+					"initialVelocity": 30,
+					"start": 1.00, 
+					"end": 0.00 
+				},
+				"scaleY": { 
+					"initialVelocity": 30,
+					"start": 1.00, 
+					"end": 0.00 
+				}
+			}
 		},
 		{
 			"steps": 60,
@@ -81,11 +145,10 @@
 					"start": 1.1, 
 					"end": 1.00
 				}
-			},
-			"outputFolder": "tmp/"
+			}
 		},
 		{
-			"steps": 60,
+			"steps": 50,
 			"name": "hoverJiggle2",
 			"tension": 50,
 			"friction": 3,
@@ -104,8 +167,31 @@
 					"start": 1.1, 
 					"end": 1.00
 				}
-			},
-			"outputFolder": "tmp/"
+			}
+		},
+		{
+			"steps": 50,
+			"name": "twirlIn",
+			"tension": 50,
+			"friction": 3,
+			"initialVelocity": 10,
+			"fadeIn": 300,
+			"properties": {
+				"rotate": { 
+					"friction": 2,
+					"start": 180.0,
+					"end": 0.0,
+					"initialVelocity": 360
+				},
+				"scaleX": { 
+					"start": 0.0,
+					"end": 1.00
+				},
+				"scaleY": { 
+					"start": 0.0, 
+					"end": 1.00
+				}
+			}
 		},
 		{
 			"steps": 40,
@@ -123,13 +209,77 @@
 					"end": 1.00,
 					"initialVelocity": -1
 				}
-			},
-			"outputFolder": "tmp/"
+			}
+		},
+		{
+			"steps": 40,
+			"name": "jellyfall",
+			"tension": 120,
+			"friction": 7,
+			"hardBounce": true,
+			"bounceDamp": 0.3,
+			"fadeIn": 200,
+			"originX": 0.5,
+			"originY": 1.0,
+			"properties": {
+				"translateY": { 
+					"start": -300, 
+					"end": 0 
+				},
+				"scaleY": {
+					"tension": 40,
+					"hardBounce": false,
+					"friction": 1, 
+					"start": 1.5, 
+					"end": 1.00
+				},
+				"scaleX": {
+					"tension": 40, 
+					"hardBounce": false,
+					"friction": 1,
+					"start": 0.5, 
+					"end": 1.00
+				}
+			}
+		},
+		{
+			"steps": 40,
+			"name": "jellyfall2",
+			"tension": 120,
+			"friction": 5,
+			"hardBounce": true,
+			"bounceDamp": 0.25,
+			"fadeIn": 200,
+			"originX": 0.5,
+			"originY": 1.0,
+			"properties": {
+				"translateY": { 
+					"start": -300, 
+					"end": 0 
+				},
+				"scaleY": {
+					"tension": 40,
+					"hardBounce": false,
+					"friction": 10, 
+					"start": 1.5, 
+					"end": 1.00
+				},
+				"scaleX": {
+					"tension": 40, 
+					"hardBounce": false,
+					"friction": 10,
+					"start": 0.5, 
+					"end": 1.00
+				}
+			}
 		},
 		{
 			"name": "slideInRight",
 			"tension": 50,
-			"friction": 7,
+			"friction": 10,
+			"fadeIn": 200,
+			"originX": 0.0,
+			"originY": 1.0,
 			"properties": {
 				"translateX": { 
 					"start": 300, 
@@ -141,8 +291,83 @@
 					"start": -45, 
 					"end": 0 
 				}
-			},
-			"outputFolder": "tmp/"
+			}
+		},
+		{
+			"name": "slideInLeft",
+			"tension": 50,
+			"friction": 10,
+			"fadeIn": 200,
+			"originX": 1.0,
+			"originY": 1.0,
+			"properties": {
+				"translateX": { 
+					"start": -300, 
+					"end": 0 
+				},
+				"skewX": { 
+					"tension": 2,
+					"friction": 2,
+					"start": 45, 
+					"end": 0 
+				}
+			}
+		},
+		{
+			"name": "flipInLeft",
+			"tension": 30,
+			"friction": 5,
+			"hardBounce": false,
+			"bounceDamp": 0.5,
+			"fadeIn": 200,
+			"properties": {
+				"rotateY": { 
+					"start": -90, 
+					"end": 0.0
+				}
+			}
+		},
+		{
+			"name": "flipInRight",
+			"tension": 30,
+			"friction": 5,
+			"hardBounce": false,
+			"bounceDamp": 0.5,
+			"fadeIn": 200,
+			"properties": {
+				"rotateY": { 
+					"start": 90, 
+					"end": 0.0
+				}
+			}
+		},
+		{
+			"name": "flipInBottom",
+			"tension": 30,
+			"friction": 5,
+			"hardBounce": false,
+			"bounceDamp": 0.5,
+			"fadeIn": 200,
+			"properties": {
+				"rotateZ": { 
+					"start": 90, 
+					"end": 0.0
+				}
+			}
+		},
+		{
+			"name": "flipInTop",
+			"tension": 30,
+			"friction": 5,
+			"hardBounce": false,
+			"bounceDamp": 0.5,
+			"fadeIn": 200,
+			"properties": {
+				"rotateZ": { 
+					"start": -90, 
+					"end": 0.0
+				}
+			}
 		}
 	]
 }
