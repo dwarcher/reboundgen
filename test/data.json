@@ -349,7 +349,7 @@
 			"bounceDamp": 0.5,
 			"fadeIn": 200,
 			"properties": {
-				"rotateZ": { 
+				"rotateX": { 
 					"start": 90, 
 					"end": 0.0
 				}
@@ -363,7 +363,7 @@
 			"bounceDamp": 0.5,
 			"fadeIn": 200,
 			"properties": {
-				"rotateZ": { 
+				"rotateX": { 
 					"start": -90, 
 					"end": 0.0
 				}

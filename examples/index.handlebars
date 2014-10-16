@@ -11,7 +11,7 @@
           <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
           <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600,700,700italic,900,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
 
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.min.css">
 
 
     </head>
@@ -23,17 +23,22 @@
         <!-- Add your site or application content here -->
         <article class="type-system-sans">
             <div class="hero-container">
-                <div class="hero">
-                    <h1>ReboundGen</h1>
-                    <h2>Editable CSS3 animations calculated using SCIENCE</h2>
-                    <p>
-                        ReboundGen calculates springy CSS3 Keyframe animations based on a few simple parameters you define. It uses Facebook's Rebound.js for the calculations and outputs SCSS style sheets. Each animation is a seperate style sheet, so you can import just the ones you need.
+                <div class="hero staggered">
+                    <h1 class="glideInRight">ReboundGen</h1>
+                    <h3 class="bounceInScale">Editable CSS3 animations calculated using Science</h2>
+                    <p class="slideInLeft">
+                        <span>ReboundGen</span> calculates springy CSS3 Keyframe animations based on a few simple parameters you define. It uses Facebook's <a href="https://github.com/facebook/rebound-js" target="_blank">Rebound.js</a> for the calculations and outputs SCSS style sheets for each animation. So, you can import just the ones you need.
+                    </p>
+
+                    <p class="bounceInDown">
+                        Smooth animations, just a <code>class</code> away.
                     </p>
                 </div>
             </div>
             <p>
                 
             <div class="animations-container">
+                <h1>Examples:</h1>
                 {{#each animations}}
                 <div class="example-container">
                     <code>.{{name}}</code>
