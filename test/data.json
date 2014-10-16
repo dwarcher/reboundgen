@@ -1,0 +1,148 @@
+{ 
+	"animations": 
+	[
+		{
+			"steps": 50,
+			"name": "bounceInRight",
+			"tension": 50,
+			"friction": 5,
+			"hardBounce": true,
+			"bounceDamp": 0.4,
+			"properties": {
+				"translateX": { 
+					"start": 500, 
+					"end": 0 
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"name": "flowInRight",
+			"tension": 25,
+			"friction": 10,
+			"hardBounce": false,
+			"properties": {
+				"translateX": { 
+					"start": 500, 
+					"end": 0 
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"name": "bounceInScale",
+			"tension": 30,
+			"friction": 5,
+			"hardBounce": false,
+			"bounceDamp": 0.5,
+			"properties": {
+				"scaleX": { 
+					"start": 0, 
+					"end": 1.00 
+				},
+				"scaleY": { 
+					"start": 0, 
+					"end": 1.00 
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"steps": 60,
+			"name": "bounceInScale2",
+			"tension": 10,
+			"friction": 3,
+			"hardBounce": false,
+			"initialVelocity": 20,
+			"properties": {
+				"scaleX": { 
+					"start": 0, 
+					"end": 1.00 
+				},
+				"scaleY": { 
+					"start": 0, 
+					"end": 1.00 
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"steps": 60,
+			"name": "hoverJiggle",
+			"tension": 50,
+			"friction": 3,
+			"initialVelocity": 10,
+			"properties": {
+				"scaleX": { 
+					"start": 1.1,
+					"end": 1.00
+				},
+				"scaleY": { 
+					"start": 1.1, 
+					"end": 1.00
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"steps": 60,
+			"name": "hoverJiggle2",
+			"tension": 50,
+			"friction": 3,
+			"initialVelocity": 10,
+			"properties": {
+				"rotate": { 
+					"start": 0.0,
+					"end": 0.0,
+					"initialVelocity": 360
+				},
+				"scaleX": { 
+					"start": 1.5,
+					"end": 1.00
+				},
+				"scaleY": { 
+					"start": 1.1, 
+					"end": 1.00
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"steps": 40,
+			"name": "rubberband",
+			"tension": 80,
+			"friction": 3,
+			"properties": {
+				"scaleX": { 
+					"start": 1.25,
+					"end": 1.00,
+					"initialVelocity": 30
+				},
+				"scaleY": { 
+					"start": 0.75, 
+					"end": 1.00,
+					"initialVelocity": -1
+				}
+			},
+			"outputFolder": "tmp/"
+		},
+		{
+			"name": "slideInRight",
+			"tension": 50,
+			"friction": 7,
+			"properties": {
+				"translateX": { 
+					"start": 300, 
+					"end": 0 
+				},
+				"skewX": { 
+					"tension": 2,
+					"friction": 2,
+					"start": -45, 
+					"end": 0 
+				}
+			},
+			"outputFolder": "tmp/"
+		}
+	]
+}
