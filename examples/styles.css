@@ -10580,6 +10580,12 @@ article.type-system-sans {
   -ms-animation-delay: 3.0s;
   -o-animation-delay: 3.0s;
   -moz-animation-delay: 3.0s; }
+.staggered :nth-child(7) {
+  animation-delay: 3.5s;
+  -webkit-animation-delay: 3.5s;
+  -ms-animation-delay: 3.5s;
+  -o-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s; }
 
 div.hero-container {
   background-color: #eeeeee;
@@ -10597,23 +10603,28 @@ div.animations-container {
   margin-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px; }
+  max-width: 860px; }
 
 div.example-container {
   position: relative;
   float: left;
   width: 25%;
-  margin-bottom: 30px;
   -webkit-perspective: 100px;
   -ms-perspective: 100px;
   -moz-perspective: 100px;
   -o-perspective: 100px;
-  perspective: 100px; }
+  perspective: 100px;
+  border: 1px solid #cccccc;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px; }
 
 div.animation-example {
-  margin: 10px;
+  margin-left: auto;
   width: 50px;
   height: 50px;
-  background-color: blue; }
+  background-color: #00f;
+  margin-right: auto;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

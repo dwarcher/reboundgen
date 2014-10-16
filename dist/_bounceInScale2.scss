@@ -1,0 +1,981 @@
+@-ms-keyframes bounceInScale2 {
+0% {
+	transform:  scaleX(0.0000) scaleY(0.0000);
+	opacity: 0.0000;
+}
+2% {
+	transform:  scaleX(0.3214) scaleY(0.3214);
+	opacity: 0.3083;
+}
+3% {
+	transform:  scaleX(0.8603) scaleY(0.8603);
+	opacity: 0.6167;
+}
+5% {
+	transform:  scaleX(1.2622) scaleY(1.2622);
+	opacity: 0.9250;
+}
+7% {
+	transform:  scaleX(1.4113) scaleY(1.4113);
+	opacity: 1.0000;
+}
+8% {
+	transform:  scaleX(1.6096) scaleY(1.6096);
+	opacity: 1.0000;
+}
+10% {
+	transform:  scaleX(1.6891) scaleY(1.6891);
+	opacity: 1.0000;
+}
+12% {
+	transform:  scaleX(1.6745) scaleY(1.6745);
+	opacity: 1.0000;
+}
+13% {
+	transform:  scaleX(1.5925) scaleY(1.5925);
+	opacity: 1.0000;
+}
+15% {
+	transform:  scaleX(1.4717) scaleY(1.4717);
+	opacity: 1.0000;
+}
+17% {
+	transform:  scaleX(1.4018) scaleY(1.4018);
+	opacity: 1.0000;
+}
+18% {
+	transform:  scaleX(1.2641) scaleY(1.2641);
+	opacity: 1.0000;
+}
+20% {
+	transform:  scaleX(1.1338) scaleY(1.1338);
+	opacity: 1.0000;
+}
+22% {
+	transform:  scaleX(1.0261) scaleY(1.0261);
+	opacity: 1.0000;
+}
+23% {
+	transform:  scaleX(0.9457) scaleY(0.9457);
+	opacity: 1.0000;
+}
+25% {
+	transform:  scaleX(0.8920) scaleY(0.8920);
+	opacity: 1.0000;
+}
+27% {
+	transform:  scaleX(0.8648) scaleY(0.8648);
+	opacity: 1.0000;
+}
+28% {
+	transform:  scaleX(0.8597) scaleY(0.8597);
+	opacity: 1.0000;
+}
+30% {
+	transform:  scaleX(0.8632) scaleY(0.8632);
+	opacity: 1.0000;
+}
+32% {
+	transform:  scaleX(0.8799) scaleY(0.8799);
+	opacity: 1.0000;
+}
+33% {
+	transform:  scaleX(0.9051) scaleY(0.9051);
+	opacity: 1.0000;
+}
+35% {
+	transform:  scaleX(0.9333) scaleY(0.9333);
+	opacity: 1.0000;
+}
+37% {
+	transform:  scaleX(0.9606) scaleY(0.9606);
+	opacity: 1.0000;
+}
+38% {
+	transform:  scaleX(0.9850) scaleY(0.9850);
+	opacity: 1.0000;
+}
+40% {
+	transform:  scaleX(0.9950) scaleY(0.9950);
+	opacity: 1.0000;
+}
+42% {
+	transform:  scaleX(1.0116) scaleY(1.0116);
+	opacity: 1.0000;
+}
+43% {
+	transform:  scaleX(1.0222) scaleY(1.0222);
+	opacity: 1.0000;
+}
+45% {
+	transform:  scaleX(1.0275) scaleY(1.0275);
+	opacity: 1.0000;
+}
+47% {
+	transform:  scaleX(1.0286) scaleY(1.0286);
+	opacity: 1.0000;
+}
+48% {
+	transform:  scaleX(1.0263) scaleY(1.0263);
+	opacity: 1.0000;
+}
+50% {
+	transform:  scaleX(1.0242) scaleY(1.0242);
+	opacity: 1.0000;
+}
+52% {
+	transform:  scaleX(1.0191) scaleY(1.0191);
+	opacity: 1.0000;
+}
+53% {
+	transform:  scaleX(1.0134) scaleY(1.0134);
+	opacity: 1.0000;
+}
+55% {
+	transform:  scaleX(1.0078) scaleY(1.0078);
+	opacity: 1.0000;
+}
+57% {
+	transform:  scaleX(1.0029) scaleY(1.0029);
+	opacity: 1.0000;
+}
+58% {
+	transform:  scaleX(0.9991) scaleY(0.9991);
+	opacity: 1.0000;
+}
+60% {
+	transform:  scaleX(0.9964) scaleY(0.9964);
+	opacity: 1.0000;
+}
+62% {
+	transform:  scaleX(0.9955) scaleY(0.9955);
+	opacity: 1.0000;
+}
+63% {
+	transform:  scaleX(0.9944) scaleY(0.9944);
+	opacity: 1.0000;
+}
+65% {
+	transform:  scaleX(0.9942) scaleY(0.9942);
+	opacity: 1.0000;
+}
+67% {
+	transform:  scaleX(0.9947) scaleY(0.9947);
+	opacity: 1.0000;
+}
+68% {
+	transform:  scaleX(0.9956) scaleY(0.9956);
+	opacity: 1.0000;
+}
+70% {
+	transform:  scaleX(0.9967) scaleY(0.9967);
+	opacity: 1.0000;
+}
+72% {
+	transform:  scaleX(0.9979) scaleY(0.9979);
+	opacity: 1.0000;
+}
+73% {
+	transform:  scaleX(0.9985) scaleY(0.9985);
+	opacity: 1.0000;
+}
+75% {
+	transform:  scaleX(0.9994) scaleY(0.9994);
+	opacity: 1.0000;
+}
+77% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+78% {
+	transform:  scaleX(1.0008) scaleY(1.0008);
+	opacity: 1.0000;
+}
+80% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+82% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+83% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+85% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+87% {
+	transform:  scaleX(1.0009) scaleY(1.0009);
+	opacity: 1.0000;
+}
+88% {
+	transform:  scaleX(1.0007) scaleY(1.0007);
+	opacity: 1.0000;
+}
+90% {
+	transform:  scaleX(1.0004) scaleY(1.0004);
+	opacity: 1.0000;
+}
+92% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+93% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+95% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+97% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+98% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+}
+@-moz-keyframes bounceInScale2 {
+0% {
+	transform:  scaleX(0.0000) scaleY(0.0000);
+	opacity: 0.0000;
+}
+2% {
+	transform:  scaleX(0.3214) scaleY(0.3214);
+	opacity: 0.3083;
+}
+3% {
+	transform:  scaleX(0.8603) scaleY(0.8603);
+	opacity: 0.6167;
+}
+5% {
+	transform:  scaleX(1.2622) scaleY(1.2622);
+	opacity: 0.9250;
+}
+7% {
+	transform:  scaleX(1.4113) scaleY(1.4113);
+	opacity: 1.0000;
+}
+8% {
+	transform:  scaleX(1.6096) scaleY(1.6096);
+	opacity: 1.0000;
+}
+10% {
+	transform:  scaleX(1.6891) scaleY(1.6891);
+	opacity: 1.0000;
+}
+12% {
+	transform:  scaleX(1.6745) scaleY(1.6745);
+	opacity: 1.0000;
+}
+13% {
+	transform:  scaleX(1.5925) scaleY(1.5925);
+	opacity: 1.0000;
+}
+15% {
+	transform:  scaleX(1.4717) scaleY(1.4717);
+	opacity: 1.0000;
+}
+17% {
+	transform:  scaleX(1.4018) scaleY(1.4018);
+	opacity: 1.0000;
+}
+18% {
+	transform:  scaleX(1.2641) scaleY(1.2641);
+	opacity: 1.0000;
+}
+20% {
+	transform:  scaleX(1.1338) scaleY(1.1338);
+	opacity: 1.0000;
+}
+22% {
+	transform:  scaleX(1.0261) scaleY(1.0261);
+	opacity: 1.0000;
+}
+23% {
+	transform:  scaleX(0.9457) scaleY(0.9457);
+	opacity: 1.0000;
+}
+25% {
+	transform:  scaleX(0.8920) scaleY(0.8920);
+	opacity: 1.0000;
+}
+27% {
+	transform:  scaleX(0.8648) scaleY(0.8648);
+	opacity: 1.0000;
+}
+28% {
+	transform:  scaleX(0.8597) scaleY(0.8597);
+	opacity: 1.0000;
+}
+30% {
+	transform:  scaleX(0.8632) scaleY(0.8632);
+	opacity: 1.0000;
+}
+32% {
+	transform:  scaleX(0.8799) scaleY(0.8799);
+	opacity: 1.0000;
+}
+33% {
+	transform:  scaleX(0.9051) scaleY(0.9051);
+	opacity: 1.0000;
+}
+35% {
+	transform:  scaleX(0.9333) scaleY(0.9333);
+	opacity: 1.0000;
+}
+37% {
+	transform:  scaleX(0.9606) scaleY(0.9606);
+	opacity: 1.0000;
+}
+38% {
+	transform:  scaleX(0.9850) scaleY(0.9850);
+	opacity: 1.0000;
+}
+40% {
+	transform:  scaleX(0.9950) scaleY(0.9950);
+	opacity: 1.0000;
+}
+42% {
+	transform:  scaleX(1.0116) scaleY(1.0116);
+	opacity: 1.0000;
+}
+43% {
+	transform:  scaleX(1.0222) scaleY(1.0222);
+	opacity: 1.0000;
+}
+45% {
+	transform:  scaleX(1.0275) scaleY(1.0275);
+	opacity: 1.0000;
+}
+47% {
+	transform:  scaleX(1.0286) scaleY(1.0286);
+	opacity: 1.0000;
+}
+48% {
+	transform:  scaleX(1.0263) scaleY(1.0263);
+	opacity: 1.0000;
+}
+50% {
+	transform:  scaleX(1.0242) scaleY(1.0242);
+	opacity: 1.0000;
+}
+52% {
+	transform:  scaleX(1.0191) scaleY(1.0191);
+	opacity: 1.0000;
+}
+53% {
+	transform:  scaleX(1.0134) scaleY(1.0134);
+	opacity: 1.0000;
+}
+55% {
+	transform:  scaleX(1.0078) scaleY(1.0078);
+	opacity: 1.0000;
+}
+57% {
+	transform:  scaleX(1.0029) scaleY(1.0029);
+	opacity: 1.0000;
+}
+58% {
+	transform:  scaleX(0.9991) scaleY(0.9991);
+	opacity: 1.0000;
+}
+60% {
+	transform:  scaleX(0.9964) scaleY(0.9964);
+	opacity: 1.0000;
+}
+62% {
+	transform:  scaleX(0.9955) scaleY(0.9955);
+	opacity: 1.0000;
+}
+63% {
+	transform:  scaleX(0.9944) scaleY(0.9944);
+	opacity: 1.0000;
+}
+65% {
+	transform:  scaleX(0.9942) scaleY(0.9942);
+	opacity: 1.0000;
+}
+67% {
+	transform:  scaleX(0.9947) scaleY(0.9947);
+	opacity: 1.0000;
+}
+68% {
+	transform:  scaleX(0.9956) scaleY(0.9956);
+	opacity: 1.0000;
+}
+70% {
+	transform:  scaleX(0.9967) scaleY(0.9967);
+	opacity: 1.0000;
+}
+72% {
+	transform:  scaleX(0.9979) scaleY(0.9979);
+	opacity: 1.0000;
+}
+73% {
+	transform:  scaleX(0.9985) scaleY(0.9985);
+	opacity: 1.0000;
+}
+75% {
+	transform:  scaleX(0.9994) scaleY(0.9994);
+	opacity: 1.0000;
+}
+77% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+78% {
+	transform:  scaleX(1.0008) scaleY(1.0008);
+	opacity: 1.0000;
+}
+80% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+82% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+83% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+85% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+87% {
+	transform:  scaleX(1.0009) scaleY(1.0009);
+	opacity: 1.0000;
+}
+88% {
+	transform:  scaleX(1.0007) scaleY(1.0007);
+	opacity: 1.0000;
+}
+90% {
+	transform:  scaleX(1.0004) scaleY(1.0004);
+	opacity: 1.0000;
+}
+92% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+93% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+95% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+97% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+98% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+}
+@-webkit-keyframes bounceInScale2 {
+0% {
+	transform:  scaleX(0.0000) scaleY(0.0000);
+	opacity: 0.0000;
+}
+2% {
+	transform:  scaleX(0.3214) scaleY(0.3214);
+	opacity: 0.3083;
+}
+3% {
+	transform:  scaleX(0.8603) scaleY(0.8603);
+	opacity: 0.6167;
+}
+5% {
+	transform:  scaleX(1.2622) scaleY(1.2622);
+	opacity: 0.9250;
+}
+7% {
+	transform:  scaleX(1.4113) scaleY(1.4113);
+	opacity: 1.0000;
+}
+8% {
+	transform:  scaleX(1.6096) scaleY(1.6096);
+	opacity: 1.0000;
+}
+10% {
+	transform:  scaleX(1.6891) scaleY(1.6891);
+	opacity: 1.0000;
+}
+12% {
+	transform:  scaleX(1.6745) scaleY(1.6745);
+	opacity: 1.0000;
+}
+13% {
+	transform:  scaleX(1.5925) scaleY(1.5925);
+	opacity: 1.0000;
+}
+15% {
+	transform:  scaleX(1.4717) scaleY(1.4717);
+	opacity: 1.0000;
+}
+17% {
+	transform:  scaleX(1.4018) scaleY(1.4018);
+	opacity: 1.0000;
+}
+18% {
+	transform:  scaleX(1.2641) scaleY(1.2641);
+	opacity: 1.0000;
+}
+20% {
+	transform:  scaleX(1.1338) scaleY(1.1338);
+	opacity: 1.0000;
+}
+22% {
+	transform:  scaleX(1.0261) scaleY(1.0261);
+	opacity: 1.0000;
+}
+23% {
+	transform:  scaleX(0.9457) scaleY(0.9457);
+	opacity: 1.0000;
+}
+25% {
+	transform:  scaleX(0.8920) scaleY(0.8920);
+	opacity: 1.0000;
+}
+27% {
+	transform:  scaleX(0.8648) scaleY(0.8648);
+	opacity: 1.0000;
+}
+28% {
+	transform:  scaleX(0.8597) scaleY(0.8597);
+	opacity: 1.0000;
+}
+30% {
+	transform:  scaleX(0.8632) scaleY(0.8632);
+	opacity: 1.0000;
+}
+32% {
+	transform:  scaleX(0.8799) scaleY(0.8799);
+	opacity: 1.0000;
+}
+33% {
+	transform:  scaleX(0.9051) scaleY(0.9051);
+	opacity: 1.0000;
+}
+35% {
+	transform:  scaleX(0.9333) scaleY(0.9333);
+	opacity: 1.0000;
+}
+37% {
+	transform:  scaleX(0.9606) scaleY(0.9606);
+	opacity: 1.0000;
+}
+38% {
+	transform:  scaleX(0.9850) scaleY(0.9850);
+	opacity: 1.0000;
+}
+40% {
+	transform:  scaleX(0.9950) scaleY(0.9950);
+	opacity: 1.0000;
+}
+42% {
+	transform:  scaleX(1.0116) scaleY(1.0116);
+	opacity: 1.0000;
+}
+43% {
+	transform:  scaleX(1.0222) scaleY(1.0222);
+	opacity: 1.0000;
+}
+45% {
+	transform:  scaleX(1.0275) scaleY(1.0275);
+	opacity: 1.0000;
+}
+47% {
+	transform:  scaleX(1.0286) scaleY(1.0286);
+	opacity: 1.0000;
+}
+48% {
+	transform:  scaleX(1.0263) scaleY(1.0263);
+	opacity: 1.0000;
+}
+50% {
+	transform:  scaleX(1.0242) scaleY(1.0242);
+	opacity: 1.0000;
+}
+52% {
+	transform:  scaleX(1.0191) scaleY(1.0191);
+	opacity: 1.0000;
+}
+53% {
+	transform:  scaleX(1.0134) scaleY(1.0134);
+	opacity: 1.0000;
+}
+55% {
+	transform:  scaleX(1.0078) scaleY(1.0078);
+	opacity: 1.0000;
+}
+57% {
+	transform:  scaleX(1.0029) scaleY(1.0029);
+	opacity: 1.0000;
+}
+58% {
+	transform:  scaleX(0.9991) scaleY(0.9991);
+	opacity: 1.0000;
+}
+60% {
+	transform:  scaleX(0.9964) scaleY(0.9964);
+	opacity: 1.0000;
+}
+62% {
+	transform:  scaleX(0.9955) scaleY(0.9955);
+	opacity: 1.0000;
+}
+63% {
+	transform:  scaleX(0.9944) scaleY(0.9944);
+	opacity: 1.0000;
+}
+65% {
+	transform:  scaleX(0.9942) scaleY(0.9942);
+	opacity: 1.0000;
+}
+67% {
+	transform:  scaleX(0.9947) scaleY(0.9947);
+	opacity: 1.0000;
+}
+68% {
+	transform:  scaleX(0.9956) scaleY(0.9956);
+	opacity: 1.0000;
+}
+70% {
+	transform:  scaleX(0.9967) scaleY(0.9967);
+	opacity: 1.0000;
+}
+72% {
+	transform:  scaleX(0.9979) scaleY(0.9979);
+	opacity: 1.0000;
+}
+73% {
+	transform:  scaleX(0.9985) scaleY(0.9985);
+	opacity: 1.0000;
+}
+75% {
+	transform:  scaleX(0.9994) scaleY(0.9994);
+	opacity: 1.0000;
+}
+77% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+78% {
+	transform:  scaleX(1.0008) scaleY(1.0008);
+	opacity: 1.0000;
+}
+80% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+82% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+83% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+85% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+87% {
+	transform:  scaleX(1.0009) scaleY(1.0009);
+	opacity: 1.0000;
+}
+88% {
+	transform:  scaleX(1.0007) scaleY(1.0007);
+	opacity: 1.0000;
+}
+90% {
+	transform:  scaleX(1.0004) scaleY(1.0004);
+	opacity: 1.0000;
+}
+92% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+93% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+95% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+97% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+98% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+}
+@keyframes bounceInScale2 {
+0% {
+	transform:  scaleX(0.0000) scaleY(0.0000);
+	opacity: 0.0000;
+}
+2% {
+	transform:  scaleX(0.3214) scaleY(0.3214);
+	opacity: 0.3083;
+}
+3% {
+	transform:  scaleX(0.8603) scaleY(0.8603);
+	opacity: 0.6167;
+}
+5% {
+	transform:  scaleX(1.2622) scaleY(1.2622);
+	opacity: 0.9250;
+}
+7% {
+	transform:  scaleX(1.4113) scaleY(1.4113);
+	opacity: 1.0000;
+}
+8% {
+	transform:  scaleX(1.6096) scaleY(1.6096);
+	opacity: 1.0000;
+}
+10% {
+	transform:  scaleX(1.6891) scaleY(1.6891);
+	opacity: 1.0000;
+}
+12% {
+	transform:  scaleX(1.6745) scaleY(1.6745);
+	opacity: 1.0000;
+}
+13% {
+	transform:  scaleX(1.5925) scaleY(1.5925);
+	opacity: 1.0000;
+}
+15% {
+	transform:  scaleX(1.4717) scaleY(1.4717);
+	opacity: 1.0000;
+}
+17% {
+	transform:  scaleX(1.4018) scaleY(1.4018);
+	opacity: 1.0000;
+}
+18% {
+	transform:  scaleX(1.2641) scaleY(1.2641);
+	opacity: 1.0000;
+}
+20% {
+	transform:  scaleX(1.1338) scaleY(1.1338);
+	opacity: 1.0000;
+}
+22% {
+	transform:  scaleX(1.0261) scaleY(1.0261);
+	opacity: 1.0000;
+}
+23% {
+	transform:  scaleX(0.9457) scaleY(0.9457);
+	opacity: 1.0000;
+}
+25% {
+	transform:  scaleX(0.8920) scaleY(0.8920);
+	opacity: 1.0000;
+}
+27% {
+	transform:  scaleX(0.8648) scaleY(0.8648);
+	opacity: 1.0000;
+}
+28% {
+	transform:  scaleX(0.8597) scaleY(0.8597);
+	opacity: 1.0000;
+}
+30% {
+	transform:  scaleX(0.8632) scaleY(0.8632);
+	opacity: 1.0000;
+}
+32% {
+	transform:  scaleX(0.8799) scaleY(0.8799);
+	opacity: 1.0000;
+}
+33% {
+	transform:  scaleX(0.9051) scaleY(0.9051);
+	opacity: 1.0000;
+}
+35% {
+	transform:  scaleX(0.9333) scaleY(0.9333);
+	opacity: 1.0000;
+}
+37% {
+	transform:  scaleX(0.9606) scaleY(0.9606);
+	opacity: 1.0000;
+}
+38% {
+	transform:  scaleX(0.9850) scaleY(0.9850);
+	opacity: 1.0000;
+}
+40% {
+	transform:  scaleX(0.9950) scaleY(0.9950);
+	opacity: 1.0000;
+}
+42% {
+	transform:  scaleX(1.0116) scaleY(1.0116);
+	opacity: 1.0000;
+}
+43% {
+	transform:  scaleX(1.0222) scaleY(1.0222);
+	opacity: 1.0000;
+}
+45% {
+	transform:  scaleX(1.0275) scaleY(1.0275);
+	opacity: 1.0000;
+}
+47% {
+	transform:  scaleX(1.0286) scaleY(1.0286);
+	opacity: 1.0000;
+}
+48% {
+	transform:  scaleX(1.0263) scaleY(1.0263);
+	opacity: 1.0000;
+}
+50% {
+	transform:  scaleX(1.0242) scaleY(1.0242);
+	opacity: 1.0000;
+}
+52% {
+	transform:  scaleX(1.0191) scaleY(1.0191);
+	opacity: 1.0000;
+}
+53% {
+	transform:  scaleX(1.0134) scaleY(1.0134);
+	opacity: 1.0000;
+}
+55% {
+	transform:  scaleX(1.0078) scaleY(1.0078);
+	opacity: 1.0000;
+}
+57% {
+	transform:  scaleX(1.0029) scaleY(1.0029);
+	opacity: 1.0000;
+}
+58% {
+	transform:  scaleX(0.9991) scaleY(0.9991);
+	opacity: 1.0000;
+}
+60% {
+	transform:  scaleX(0.9964) scaleY(0.9964);
+	opacity: 1.0000;
+}
+62% {
+	transform:  scaleX(0.9955) scaleY(0.9955);
+	opacity: 1.0000;
+}
+63% {
+	transform:  scaleX(0.9944) scaleY(0.9944);
+	opacity: 1.0000;
+}
+65% {
+	transform:  scaleX(0.9942) scaleY(0.9942);
+	opacity: 1.0000;
+}
+67% {
+	transform:  scaleX(0.9947) scaleY(0.9947);
+	opacity: 1.0000;
+}
+68% {
+	transform:  scaleX(0.9956) scaleY(0.9956);
+	opacity: 1.0000;
+}
+70% {
+	transform:  scaleX(0.9967) scaleY(0.9967);
+	opacity: 1.0000;
+}
+72% {
+	transform:  scaleX(0.9979) scaleY(0.9979);
+	opacity: 1.0000;
+}
+73% {
+	transform:  scaleX(0.9985) scaleY(0.9985);
+	opacity: 1.0000;
+}
+75% {
+	transform:  scaleX(0.9994) scaleY(0.9994);
+	opacity: 1.0000;
+}
+77% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+78% {
+	transform:  scaleX(1.0008) scaleY(1.0008);
+	opacity: 1.0000;
+}
+80% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+82% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+83% {
+	transform:  scaleX(1.0012) scaleY(1.0012);
+	opacity: 1.0000;
+}
+85% {
+	transform:  scaleX(1.0011) scaleY(1.0011);
+	opacity: 1.0000;
+}
+87% {
+	transform:  scaleX(1.0009) scaleY(1.0009);
+	opacity: 1.0000;
+}
+88% {
+	transform:  scaleX(1.0007) scaleY(1.0007);
+	opacity: 1.0000;
+}
+90% {
+	transform:  scaleX(1.0004) scaleY(1.0004);
+	opacity: 1.0000;
+}
+92% {
+	transform:  scaleX(1.0002) scaleY(1.0002);
+	opacity: 1.0000;
+}
+93% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+95% {
+	transform:  scaleX(1.0000) scaleY(1.0000);
+	opacity: 1.0000;
+}
+97% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+98% {
+	transform:  scaleX(0.9998) scaleY(0.9998);
+	opacity: 1.0000;
+}
+}
+
+// Generated by easegen
+// Recommended Length: 1.8500369999999973
+.bounceInScale2 {
+ 	-ms-animation: bounceInScale2 1.8500s linear 0s 1 normal both;
+	-ms-transform-origin: 50% 50%;
+	-moz-animation: bounceInScale2 1.8500s linear 0s 1 normal both;
+	-moz-transform-origin: 50% 50%;
+	-webkit-animation: bounceInScale2 1.8500s linear 0s 1 normal both;
+	-webkit-transform-origin: 50% 50%;
+	animation: bounceInScale2 1.8500s linear 0s 1 normal both;
+	transform-origin: 50% 50%;
+}

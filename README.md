@@ -7,17 +7,12 @@ Install the module with: `npm install reboundgen`
 
 ```javascript
 var reboundgen = require('reboundgen');
-reboundgen.awesome(); // "awesome"
+reboundgen.generateFromFile("test/data.json");
 ```
 
-## Documentation
-_(Coming soon)_
-
 ## Examples
-_(Coming soon)_
+Are [here](http://dwarcher.github.io/reboundgen/examples/)
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
 _(Nothing yet)_
