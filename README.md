@@ -8,6 +8,8 @@ Are [here](http://dwarcher.github.io/reboundgen/examples/)
 
 ## How to use
 
+#### Easy instructions
+
 1. [Download](https://github.com/dwarcher/reboundgen/archive/master.zip) this package.
 2. SCSS files are available in the `dist/` folder. You can import the `_animations.scss` file to include all the animations.
 3. Simply put the corresponding class on the element you want to animate. For Example: `bounceInRight`. Note that for the flipping animations you may need `perspective: XXXXpx;` on the container element for the full effect.
