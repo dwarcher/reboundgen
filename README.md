@@ -51,9 +51,11 @@ This could easily be turned into a grunt or gulp plugin...
 			"bounceDamp": 0.4,
 			"properties": {
 				"translateX": { 
+					"friction": 3,
 					"start": 500, 
 					"end": 0 
-				}
+				},
+				"translateY": 500
 			}
 		}
 	]
@@ -125,6 +127,7 @@ List of properties to animate. Currently we're suppporting:
 + skewX
 + skewY
 
+If you specify an object for the property, you can set the `start` and `end`. Additionally, any of the above parameters (friction, tension, etc.) can be overriden per property. If you don't specify an object and simply specify a number instead, then it is assumed that you are transitioning from 0 to the number with the default settings.
 
 ## Release History
 _(Nothing yet)_
