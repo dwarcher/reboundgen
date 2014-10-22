@@ -146,8 +146,9 @@ The transform-origin y parameter in the range of 0...1.0
 
 If you specify an object for the property, you can set the `start` and `end`. Additionally, any of the above parameters (friction, tension, etc.) can be overriden per property. If you don't specify an object and simply specify a number instead, then it is assumed that you are transitioning from 0 to the number with the default settings.
 
-## Release History
-_(Nothing yet)_
+## Known Issues
+
+I've noticed that Safari seems to break when using scale 0.0 as the initial scale when combined with rotation. Using 0.1 works. Also, the 'rubberband' animation seems to cause some rendering issues in Chrome sometimes.
 
 ## License
 Copyright (c) 2014 Dave Wallin  
