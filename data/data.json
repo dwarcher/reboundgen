@@ -219,18 +219,18 @@
 			"initialVelocity": 10,
 			"fadeIn": 300,
 			"properties": {
-				"rotate": { 
+				"rotateZ": { 
 					"friction": 2,
 					"start": 180.0,
 					"end": 0.0,
 					"initialVelocity": 180
 				},
 				"scaleX": { 
-					"start": 0.0,
+					"start": 0.1,
 					"end": 1.00
 				},
 				"scaleY": { 
-					"start": 0.0, 
+					"start": 0.1, 
 					"end": 1.00
 				}
 			}
@@ -425,13 +425,13 @@
 					"end": 0.0
 				},
 				"scaleX": { 
-					"start": 0, 
+					"start": 0.1, 
 					"end": 1.00 
 				},
 				"scaleY": { 
 					"tension": 5,
 					"friction": 1,
-					"start": 0, 
+					"start": 0.1, 
 					"end": 1.00 
 				}
 			}
