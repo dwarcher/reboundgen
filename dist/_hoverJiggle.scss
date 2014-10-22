@@ -1,633 +1,133 @@
-@-ms-keyframes hoverJiggle {
-0% {
- -ms-transform: scaleX(1.1000) scaleY(1.1000);
-}
-2% {
- -ms-transform: scaleX(1.2491) scaleY(1.2491);
-}
-4% {
- -ms-transform: scaleX(1.4240) scaleY(1.4240);
-}
-6% {
- -ms-transform: scaleX(1.4524) scaleY(1.4524);
-}
-8% {
- -ms-transform: scaleX(1.3709) scaleY(1.3709);
-}
-10% {
- -ms-transform: scaleX(1.3018) scaleY(1.3018);
-}
-12% {
- -ms-transform: scaleX(1.1469) scaleY(1.1469);
-}
-14% {
- -ms-transform: scaleX(0.9982) scaleY(0.9982);
-}
-16% {
- -ms-transform: scaleX(0.8917) scaleY(0.8917);
-}
-18% {
- -ms-transform: scaleX(0.8392) scaleY(0.8392);
-}
-20% {
- -ms-transform: scaleX(0.8374) scaleY(0.8374);
-}
-22% {
- -ms-transform: scaleX(0.8735) scaleY(0.8735);
-}
-24% {
- -ms-transform: scaleX(0.9281) scaleY(0.9281);
-}
-26% {
- -ms-transform: scaleX(0.9851) scaleY(0.9851);
-}
-28% {
- -ms-transform: scaleX(1.0296) scaleY(1.0296);
-}
-30% {
- -ms-transform: scaleX(1.0449) scaleY(1.0449);
-}
-32% {
- -ms-transform: scaleX(1.0604) scaleY(1.0604);
-}
-34% {
- -ms-transform: scaleX(1.0580) scaleY(1.0580);
-}
-36% {
- -ms-transform: scaleX(1.0428) scaleY(1.0428);
-}
-38% {
- -ms-transform: scaleX(1.0220) scaleY(1.0220);
-}
-40% {
- -ms-transform: scaleX(1.0021) scaleY(1.0021);
-}
-42% {
- -ms-transform: scaleX(0.9868) scaleY(0.9868);
-}
-44% {
- -ms-transform: scaleX(0.9789) scaleY(0.9789);
-}
-46% {
- -ms-transform: scaleX(0.9779) scaleY(0.9779);
-}
-48% {
- -ms-transform: scaleX(0.9823) scaleY(0.9823);
-}
-50% {
- -ms-transform: scaleX(0.9856) scaleY(0.9856);
-}
-52% {
- -ms-transform: scaleX(0.9934) scaleY(0.9934);
-}
-54% {
- -ms-transform: scaleX(1.0006) scaleY(1.0006);
-}
-56% {
- -ms-transform: scaleX(1.0056) scaleY(1.0056);
-}
-58% {
- -ms-transform: scaleX(1.0080) scaleY(1.0080);
-}
-60% {
- -ms-transform: scaleX(1.0079) scaleY(1.0079);
-}
-62% {
- -ms-transform: scaleX(1.0061) scaleY(1.0061);
-}
-64% {
- -ms-transform: scaleX(1.0033) scaleY(1.0033);
-}
-66% {
- -ms-transform: scaleX(1.0005) scaleY(1.0005);
-}
-68% {
- -ms-transform: scaleX(0.9984) scaleY(0.9984);
-}
-70% {
- -ms-transform: scaleX(0.9977) scaleY(0.9977);
-}
-72% {
- -ms-transform: scaleX(0.9970) scaleY(0.9970);
-}
-74% {
- -ms-transform: scaleX(0.9972) scaleY(0.9972);
-}
-76% {
- -ms-transform: scaleX(0.9980) scaleY(0.9980);
-}
-78% {
- -ms-transform: scaleX(0.9990) scaleY(0.9990);
-}
-80% {
- -ms-transform: scaleX(1.0000) scaleY(1.0000);
-}
-82% {
- -ms-transform: scaleX(1.0007) scaleY(1.0007);
-}
-84% {
- -ms-transform: scaleX(1.0011) scaleY(1.0011);
-}
-86% {
- -ms-transform: scaleX(1.0011) scaleY(1.0011);
-}
-88% {
- -ms-transform: scaleX(1.0008) scaleY(1.0008);
-}
-90% {
- -ms-transform: scaleX(1.0007) scaleY(1.0007);
-}
-92% {
- -ms-transform: scaleX(1.0003) scaleY(1.0003);
-}
-94% {
- -ms-transform: scaleX(0.9999) scaleY(0.9999);
-}
-96% {
- -ms-transform: scaleX(0.9997) scaleY(0.9997);
-}
-98% {
- -ms-transform: scaleX(0.9996) scaleY(0.9996);
-}
-100% {
- -ms-transform: scaleX(1.0000) scaleY(1.0000);
-}
-}
-@-moz-keyframes hoverJiggle {
-0% {
- -moz-transform: scaleX(1.1000) scaleY(1.1000);
-}
-2% {
- -moz-transform: scaleX(1.2491) scaleY(1.2491);
-}
-4% {
- -moz-transform: scaleX(1.4240) scaleY(1.4240);
-}
-6% {
- -moz-transform: scaleX(1.4524) scaleY(1.4524);
-}
-8% {
- -moz-transform: scaleX(1.3709) scaleY(1.3709);
-}
-10% {
- -moz-transform: scaleX(1.3018) scaleY(1.3018);
-}
-12% {
- -moz-transform: scaleX(1.1469) scaleY(1.1469);
-}
-14% {
- -moz-transform: scaleX(0.9982) scaleY(0.9982);
-}
-16% {
- -moz-transform: scaleX(0.8917) scaleY(0.8917);
-}
-18% {
- -moz-transform: scaleX(0.8392) scaleY(0.8392);
-}
-20% {
- -moz-transform: scaleX(0.8374) scaleY(0.8374);
-}
-22% {
- -moz-transform: scaleX(0.8735) scaleY(0.8735);
-}
-24% {
- -moz-transform: scaleX(0.9281) scaleY(0.9281);
-}
-26% {
- -moz-transform: scaleX(0.9851) scaleY(0.9851);
-}
-28% {
- -moz-transform: scaleX(1.0296) scaleY(1.0296);
-}
-30% {
- -moz-transform: scaleX(1.0449) scaleY(1.0449);
-}
-32% {
- -moz-transform: scaleX(1.0604) scaleY(1.0604);
-}
-34% {
- -moz-transform: scaleX(1.0580) scaleY(1.0580);
-}
-36% {
- -moz-transform: scaleX(1.0428) scaleY(1.0428);
-}
-38% {
- -moz-transform: scaleX(1.0220) scaleY(1.0220);
-}
-40% {
- -moz-transform: scaleX(1.0021) scaleY(1.0021);
-}
-42% {
- -moz-transform: scaleX(0.9868) scaleY(0.9868);
-}
-44% {
- -moz-transform: scaleX(0.9789) scaleY(0.9789);
-}
-46% {
- -moz-transform: scaleX(0.9779) scaleY(0.9779);
-}
-48% {
- -moz-transform: scaleX(0.9823) scaleY(0.9823);
-}
-50% {
- -moz-transform: scaleX(0.9856) scaleY(0.9856);
-}
-52% {
- -moz-transform: scaleX(0.9934) scaleY(0.9934);
-}
-54% {
- -moz-transform: scaleX(1.0006) scaleY(1.0006);
-}
-56% {
- -moz-transform: scaleX(1.0056) scaleY(1.0056);
-}
-58% {
- -moz-transform: scaleX(1.0080) scaleY(1.0080);
-}
-60% {
- -moz-transform: scaleX(1.0079) scaleY(1.0079);
-}
-62% {
- -moz-transform: scaleX(1.0061) scaleY(1.0061);
-}
-64% {
- -moz-transform: scaleX(1.0033) scaleY(1.0033);
-}
-66% {
- -moz-transform: scaleX(1.0005) scaleY(1.0005);
-}
-68% {
- -moz-transform: scaleX(0.9984) scaleY(0.9984);
-}
-70% {
- -moz-transform: scaleX(0.9977) scaleY(0.9977);
-}
-72% {
- -moz-transform: scaleX(0.9970) scaleY(0.9970);
-}
-74% {
- -moz-transform: scaleX(0.9972) scaleY(0.9972);
-}
-76% {
- -moz-transform: scaleX(0.9980) scaleY(0.9980);
-}
-78% {
- -moz-transform: scaleX(0.9990) scaleY(0.9990);
-}
-80% {
- -moz-transform: scaleX(1.0000) scaleY(1.0000);
-}
-82% {
- -moz-transform: scaleX(1.0007) scaleY(1.0007);
-}
-84% {
- -moz-transform: scaleX(1.0011) scaleY(1.0011);
-}
-86% {
- -moz-transform: scaleX(1.0011) scaleY(1.0011);
-}
-88% {
- -moz-transform: scaleX(1.0008) scaleY(1.0008);
-}
-90% {
- -moz-transform: scaleX(1.0007) scaleY(1.0007);
-}
-92% {
- -moz-transform: scaleX(1.0003) scaleY(1.0003);
-}
-94% {
- -moz-transform: scaleX(0.9999) scaleY(0.9999);
-}
-96% {
- -moz-transform: scaleX(0.9997) scaleY(0.9997);
-}
-98% {
- -moz-transform: scaleX(0.9996) scaleY(0.9996);
-}
-100% {
- -moz-transform: scaleX(1.0000) scaleY(1.0000);
-}
-}
 @-webkit-keyframes hoverJiggle {
 0% {
- -webkit-transform: scaleX(1.1000) scaleY(1.1000);
-}
-2% {
- -webkit-transform: scaleX(1.2491) scaleY(1.2491);
+ -webkit-transform: scaleX(1.100) scaleY(1.100);
 }
 4% {
- -webkit-transform: scaleX(1.4240) scaleY(1.4240);
-}
-6% {
- -webkit-transform: scaleX(1.4524) scaleY(1.4524);
+ -webkit-transform: scaleX(1.424) scaleY(1.424);
 }
 8% {
- -webkit-transform: scaleX(1.3709) scaleY(1.3709);
-}
-10% {
- -webkit-transform: scaleX(1.3018) scaleY(1.3018);
+ -webkit-transform: scaleX(1.371) scaleY(1.371);
 }
 12% {
- -webkit-transform: scaleX(1.1469) scaleY(1.1469);
-}
-14% {
- -webkit-transform: scaleX(0.9982) scaleY(0.9982);
+ -webkit-transform: scaleX(1.147) scaleY(1.147);
 }
 16% {
- -webkit-transform: scaleX(0.8917) scaleY(0.8917);
-}
-18% {
- -webkit-transform: scaleX(0.8392) scaleY(0.8392);
+ -webkit-transform: scaleX(0.892) scaleY(0.892);
 }
 20% {
- -webkit-transform: scaleX(0.8374) scaleY(0.8374);
-}
-22% {
- -webkit-transform: scaleX(0.8735) scaleY(0.8735);
+ -webkit-transform: scaleX(0.837) scaleY(0.837);
 }
 24% {
- -webkit-transform: scaleX(0.9281) scaleY(0.9281);
-}
-26% {
- -webkit-transform: scaleX(0.9851) scaleY(0.9851);
+ -webkit-transform: scaleX(0.928) scaleY(0.928);
 }
 28% {
- -webkit-transform: scaleX(1.0296) scaleY(1.0296);
-}
-30% {
- -webkit-transform: scaleX(1.0449) scaleY(1.0449);
+ -webkit-transform: scaleX(1.030) scaleY(1.030);
 }
 32% {
- -webkit-transform: scaleX(1.0604) scaleY(1.0604);
-}
-34% {
- -webkit-transform: scaleX(1.0580) scaleY(1.0580);
+ -webkit-transform: scaleX(1.060) scaleY(1.060);
 }
 36% {
- -webkit-transform: scaleX(1.0428) scaleY(1.0428);
-}
-38% {
- -webkit-transform: scaleX(1.0220) scaleY(1.0220);
+ -webkit-transform: scaleX(1.043) scaleY(1.043);
 }
 40% {
- -webkit-transform: scaleX(1.0021) scaleY(1.0021);
-}
-42% {
- -webkit-transform: scaleX(0.9868) scaleY(0.9868);
+ -webkit-transform: scaleX(1.002) scaleY(1.002);
 }
 44% {
- -webkit-transform: scaleX(0.9789) scaleY(0.9789);
-}
-46% {
- -webkit-transform: scaleX(0.9779) scaleY(0.9779);
+ -webkit-transform: scaleX(0.979) scaleY(0.979);
 }
 48% {
- -webkit-transform: scaleX(0.9823) scaleY(0.9823);
-}
-50% {
- -webkit-transform: scaleX(0.9856) scaleY(0.9856);
+ -webkit-transform: scaleX(0.982) scaleY(0.982);
 }
 52% {
- -webkit-transform: scaleX(0.9934) scaleY(0.9934);
-}
-54% {
- -webkit-transform: scaleX(1.0006) scaleY(1.0006);
+ -webkit-transform: scaleX(0.993) scaleY(0.993);
 }
 56% {
- -webkit-transform: scaleX(1.0056) scaleY(1.0056);
-}
-58% {
- -webkit-transform: scaleX(1.0080) scaleY(1.0080);
+ -webkit-transform: scaleX(1.006) scaleY(1.006);
 }
 60% {
- -webkit-transform: scaleX(1.0079) scaleY(1.0079);
-}
-62% {
- -webkit-transform: scaleX(1.0061) scaleY(1.0061);
+ -webkit-transform: scaleX(1.008) scaleY(1.008);
 }
 64% {
- -webkit-transform: scaleX(1.0033) scaleY(1.0033);
-}
-66% {
- -webkit-transform: scaleX(1.0005) scaleY(1.0005);
+ -webkit-transform: scaleX(1.003) scaleY(1.003);
 }
 68% {
- -webkit-transform: scaleX(0.9984) scaleY(0.9984);
-}
-70% {
- -webkit-transform: scaleX(0.9977) scaleY(0.9977);
-}
-72% {
- -webkit-transform: scaleX(0.9970) scaleY(0.9970);
-}
-74% {
- -webkit-transform: scaleX(0.9972) scaleY(0.9972);
-}
-76% {
- -webkit-transform: scaleX(0.9980) scaleY(0.9980);
-}
-78% {
- -webkit-transform: scaleX(0.9990) scaleY(0.9990);
+ -webkit-transform: scaleX(0.998) scaleY(0.998);
 }
 80% {
- -webkit-transform: scaleX(1.0000) scaleY(1.0000);
-}
-82% {
- -webkit-transform: scaleX(1.0007) scaleY(1.0007);
-}
-84% {
- -webkit-transform: scaleX(1.0011) scaleY(1.0011);
-}
-86% {
- -webkit-transform: scaleX(1.0011) scaleY(1.0011);
-}
-88% {
- -webkit-transform: scaleX(1.0008) scaleY(1.0008);
-}
-90% {
- -webkit-transform: scaleX(1.0007) scaleY(1.0007);
-}
-92% {
- -webkit-transform: scaleX(1.0003) scaleY(1.0003);
-}
-94% {
- -webkit-transform: scaleX(0.9999) scaleY(0.9999);
-}
-96% {
- -webkit-transform: scaleX(0.9997) scaleY(0.9997);
-}
-98% {
- -webkit-transform: scaleX(0.9996) scaleY(0.9996);
+ -webkit-transform: scaleX(1.000) scaleY(1.000);
 }
 100% {
- -webkit-transform: scaleX(1.0000) scaleY(1.0000);
+ -webkit-transform: scaleX(1.000) scaleY(1.000);
 }
 }
 @keyframes hoverJiggle {
 0% {
- transform: scaleX(1.1000) scaleY(1.1000);
-}
-2% {
- transform: scaleX(1.2491) scaleY(1.2491);
+ transform: scaleX(1.100) scaleY(1.100);
 }
 4% {
- transform: scaleX(1.4240) scaleY(1.4240);
-}
-6% {
- transform: scaleX(1.4524) scaleY(1.4524);
+ transform: scaleX(1.424) scaleY(1.424);
 }
 8% {
- transform: scaleX(1.3709) scaleY(1.3709);
-}
-10% {
- transform: scaleX(1.3018) scaleY(1.3018);
+ transform: scaleX(1.371) scaleY(1.371);
 }
 12% {
- transform: scaleX(1.1469) scaleY(1.1469);
-}
-14% {
- transform: scaleX(0.9982) scaleY(0.9982);
+ transform: scaleX(1.147) scaleY(1.147);
 }
 16% {
- transform: scaleX(0.8917) scaleY(0.8917);
-}
-18% {
- transform: scaleX(0.8392) scaleY(0.8392);
+ transform: scaleX(0.892) scaleY(0.892);
 }
 20% {
- transform: scaleX(0.8374) scaleY(0.8374);
-}
-22% {
- transform: scaleX(0.8735) scaleY(0.8735);
+ transform: scaleX(0.837) scaleY(0.837);
 }
 24% {
- transform: scaleX(0.9281) scaleY(0.9281);
-}
-26% {
- transform: scaleX(0.9851) scaleY(0.9851);
+ transform: scaleX(0.928) scaleY(0.928);
 }
 28% {
- transform: scaleX(1.0296) scaleY(1.0296);
-}
-30% {
- transform: scaleX(1.0449) scaleY(1.0449);
+ transform: scaleX(1.030) scaleY(1.030);
 }
 32% {
- transform: scaleX(1.0604) scaleY(1.0604);
-}
-34% {
- transform: scaleX(1.0580) scaleY(1.0580);
+ transform: scaleX(1.060) scaleY(1.060);
 }
 36% {
- transform: scaleX(1.0428) scaleY(1.0428);
-}
-38% {
- transform: scaleX(1.0220) scaleY(1.0220);
+ transform: scaleX(1.043) scaleY(1.043);
 }
 40% {
- transform: scaleX(1.0021) scaleY(1.0021);
-}
-42% {
- transform: scaleX(0.9868) scaleY(0.9868);
+ transform: scaleX(1.002) scaleY(1.002);
 }
 44% {
- transform: scaleX(0.9789) scaleY(0.9789);
-}
-46% {
- transform: scaleX(0.9779) scaleY(0.9779);
+ transform: scaleX(0.979) scaleY(0.979);
 }
 48% {
- transform: scaleX(0.9823) scaleY(0.9823);
-}
-50% {
- transform: scaleX(0.9856) scaleY(0.9856);
+ transform: scaleX(0.982) scaleY(0.982);
 }
 52% {
- transform: scaleX(0.9934) scaleY(0.9934);
-}
-54% {
- transform: scaleX(1.0006) scaleY(1.0006);
+ transform: scaleX(0.993) scaleY(0.993);
 }
 56% {
- transform: scaleX(1.0056) scaleY(1.0056);
-}
-58% {
- transform: scaleX(1.0080) scaleY(1.0080);
+ transform: scaleX(1.006) scaleY(1.006);
 }
 60% {
- transform: scaleX(1.0079) scaleY(1.0079);
-}
-62% {
- transform: scaleX(1.0061) scaleY(1.0061);
+ transform: scaleX(1.008) scaleY(1.008);
 }
 64% {
- transform: scaleX(1.0033) scaleY(1.0033);
-}
-66% {
- transform: scaleX(1.0005) scaleY(1.0005);
+ transform: scaleX(1.003) scaleY(1.003);
 }
 68% {
- transform: scaleX(0.9984) scaleY(0.9984);
-}
-70% {
- transform: scaleX(0.9977) scaleY(0.9977);
-}
-72% {
- transform: scaleX(0.9970) scaleY(0.9970);
-}
-74% {
- transform: scaleX(0.9972) scaleY(0.9972);
-}
-76% {
- transform: scaleX(0.9980) scaleY(0.9980);
-}
-78% {
- transform: scaleX(0.9990) scaleY(0.9990);
+ transform: scaleX(0.998) scaleY(0.998);
 }
 80% {
- transform: scaleX(1.0000) scaleY(1.0000);
-}
-82% {
- transform: scaleX(1.0007) scaleY(1.0007);
-}
-84% {
- transform: scaleX(1.0011) scaleY(1.0011);
-}
-86% {
- transform: scaleX(1.0011) scaleY(1.0011);
-}
-88% {
- transform: scaleX(1.0008) scaleY(1.0008);
-}
-90% {
- transform: scaleX(1.0007) scaleY(1.0007);
-}
-92% {
- transform: scaleX(1.0003) scaleY(1.0003);
-}
-94% {
- transform: scaleX(0.9999) scaleY(0.9999);
-}
-96% {
- transform: scaleX(0.9997) scaleY(0.9997);
-}
-98% {
- transform: scaleX(0.9996) scaleY(0.9996);
+ transform: scaleX(1.000) scaleY(1.000);
 }
 100% {
- transform: scaleX(1.0000) scaleY(1.0000);
+ transform: scaleX(1.000) scaleY(1.000);
 }
 }
 
 // Generated by easegen
 // Recommended Length: 1.5833649999999986
 .hoverJiggle {
- 	-ms-animation: hoverJiggle 1.5834s linear 0s 1 normal both;
-	-ms-transform-origin: 50% 50%;
-	-moz-animation: hoverJiggle 1.5834s linear 0s 1 normal both;
-	-moz-transform-origin: 50% 50%;
-	-webkit-animation: hoverJiggle 1.5834s linear 0s 1 normal both;
+ 	-webkit-animation: hoverJiggle 1.583s linear 0s 1 normal both;
 	-webkit-transform-origin: 50% 50%;
-	animation: hoverJiggle 1.5834s linear 0s 1 normal both;
+	animation: hoverJiggle 1.583s linear 0s 1 normal both;
 	transform-origin: 50% 50%;
 }
