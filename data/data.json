@@ -3,7 +3,6 @@
 	"animations": 
 	[
 		{
-			"steps": 50,
 			"name": "bounceInRight",
 			"tension": 50,
 			"friction": 5,
@@ -18,7 +17,6 @@
 			}
 		},
 		{
-			"steps": 50,
 			"name": "bounceInLeft",
 			"tension": 50,
 			"friction": 1,
@@ -33,7 +31,6 @@
 			}
 		},
 		{
-			"steps": 50,
 			"name": "bounceInDown",
 			"tension": 50,
 			"friction": 1,
@@ -49,6 +46,7 @@
 		},
 		{
 			"name": "glideInRight",
+			"steps": 20,
 			"fadeIn": 300,
 			"tension": 25,
 			"friction": 10,
@@ -62,6 +60,7 @@
 		},
 		{
 			"name": "glideInLeft",
+			"steps": 20,
 			"fadeIn": 300,
 			"tension": 25,
 			"friction": 10,
@@ -74,6 +73,7 @@
 			}
 		},
 		{
+			"steps": 25,
 			"name": "bounceInScale",
 			"tension": 30,
 			"friction": 5,
@@ -92,7 +92,7 @@
 			}
 		},
 		{
-			"steps": 60,
+			"steps": 25,
 			"name": "bounceInScale2",
 			"tension": 10,
 			"friction": 3,
@@ -112,6 +112,7 @@
 		},
 		{
 			"name": "springScaleOut",
+			"steps": 25,
 			"tension": 30,
 			"friction": 5,
 			"hardBounce": false,
@@ -131,8 +132,8 @@
 			}
 		},
 		{
-			"steps": 60,
 			"name": "hoverJiggle",
+			"steps": 25,
 			"tension": 50,
 			"friction": 3,
 			"initialVelocity": 10,
@@ -148,8 +149,8 @@
 			}
 		},
 		{
-			"steps": 50,
 			"name": "hoverJiggle2",
+			"steps": 25,
 			"tension": 50,
 			"friction": 3,
 			"initialVelocity": 10,
@@ -170,7 +171,6 @@
 			}
 		},
 		{
-			"steps": 50,
 			"name": "twirlIn",
 			"tension": 50,
 			"friction": 3,
@@ -181,7 +181,7 @@
 					"friction": 2,
 					"start": 180.0,
 					"end": 0.0,
-					"initialVelocity": 360
+					"initialVelocity": 180
 				},
 				"scaleX": { 
 					"start": 0.0,
@@ -194,7 +194,6 @@
 			}
 		},
 		{
-			"steps": 40,
 			"name": "rubberband",
 			"tension": 80,
 			"friction": 3,
@@ -212,7 +211,6 @@
 			}
 		},
 		{
-			"steps": 40,
 			"name": "jellyfall",
 			"tension": 120,
 			"friction": 7,
@@ -243,7 +241,6 @@
 			}
 		},
 		{
-			"steps": 40,
 			"name": "jellyfall2",
 			"tension": 120,
 			"friction": 5,
@@ -274,6 +271,7 @@
 			}
 		},
 		{
+			"steps": 25,
 			"name": "slideInRight",
 			"tension": 50,
 			"friction": 10,
@@ -294,6 +292,7 @@
 			}
 		},
 		{
+			"steps": 25,
 			"name": "slideInLeft",
 			"tension": 50,
 			"friction": 10,

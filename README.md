@@ -8,6 +8,8 @@ Are [here](http://dwarcher.github.io/reboundgen/examples/)
 
 ## How to use
 
+#### Easy instructions
+
 1. [Download](https://github.com/dwarcher/reboundgen/archive/master.zip) this package.
 2. SCSS files are available in the `dist/` folder. You can import the `_animations.scss` file to include all the animations.
 3. Simply put the corresponding class on the element you want to animate. For Example: `bounceInRight`. Note that for the flipping animations you may need `perspective: XXXXpx;` on the container element for the full effect.
@@ -19,8 +21,9 @@ It's recommended that you comment out animations you aren't using from `_animati
 1. Clone this repo `git clone https://github.com/dwarcher/reboundgen.git .`
 2. Install [Grunt](http://gruntjs.com/getting-started) if you haven't.
 3. Edit the `data/data.json` (see below for more details)
-4. Run 'grunt build'
+4. Run `grunt build`
 5. Built animations will go into `dist/`
+6. Or, you can run `grunt watch` to build whenever you make a change.
 
 Alertnately, you can compile from code.
 
