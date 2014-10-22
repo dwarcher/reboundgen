@@ -1,0 +1,261 @@
+@-webkit-keyframes kitchenSink {
+0% {
+ -webkit-transform: rotateX(-90.000deg) rotateZ(-90.000deg) scaleX(0.000) scaleY(0.000);
+	opacity: 0.000;
+}
+2% {
+ -webkit-transform: rotateX(-67.153deg) rotateZ(-67.153deg) scaleX(0.255) scaleY(0.192);
+	opacity: 0.790;
+}
+4% {
+ -webkit-transform: rotateX(-24.436deg) rotateZ(-24.436deg) scaleX(0.730) scaleY(0.635);
+	opacity: 1.000;
+}
+6% {
+ -webkit-transform: rotateX(14.327deg) rotateZ(14.327deg) scaleX(1.160) scaleY(1.208);
+}
+8% {
+ -webkit-transform: rotateX(22.684deg) rotateZ(22.684deg) scaleX(1.252) scaleY(1.516);
+}
+10% {
+ -webkit-transform: rotateX(11.870deg) rotateZ(11.870deg) scaleX(1.132) scaleY(1.461);
+}
+12% {
+ -webkit-transform: rotateX(1.433deg) rotateZ(1.433deg) scaleX(1.016) scaleY(1.239);
+}
+14% {
+ -webkit-transform: rotateX(-5.434deg) rotateZ(-5.434deg) scaleX(0.940) scaleY(0.923);
+}
+16% {
+ -webkit-transform: rotateX(-5.054deg) rotateZ(-5.054deg) scaleX(0.944) scaleY(0.735);
+}
+18% {
+ -webkit-transform: rotateX(-1.634deg) rotateZ(-1.634deg) scaleX(0.982) scaleY(0.740);
+}
+20% {
+ -webkit-transform: rotateX(0.585deg) rotateZ(0.585deg) scaleX(1.007) scaleY(0.849);
+}
+22% {
+ -webkit-transform: rotateX(1.532deg) rotateZ(1.532deg) scaleX(1.017) scaleY(1.021);
+}
+24% {
+ -webkit-transform: rotateX(0.972deg) rotateZ(0.972deg) scaleX(1.011) scaleY(1.135);
+}
+26% {
+ -webkit-transform: rotateX(0.099deg) rotateZ(0.099deg) scaleX(1.001) scaleY(1.145);
+}
+28% {
+ -webkit-transform: rotateX(-0.312deg) rotateZ(-0.312deg) scaleX(0.997) scaleY(1.092);
+}
+30% {
+ -webkit-transform: scaleY(1.000);
+}
+32% {
+ -webkit-transform: rotateX(-0.155deg) rotateZ(-0.155deg) scaleX(0.998) scaleY(0.933);
+}
+34% {
+ -webkit-transform: rotateX(0.039deg) rotateZ(0.039deg) scaleX(1.000) scaleY(0.920);
+}
+36% {
+ -webkit-transform: scaleY(0.945);
+}
+38% {
+ -webkit-transform: scaleY(0.994);
+}
+40% {
+ -webkit-transform: scaleY(1.033);
+}
+42% {
+ -webkit-transform: scaleY(1.043);
+}
+44% {
+ -webkit-transform: scaleY(1.032);
+}
+46% {
+ -webkit-transform: scaleY(1.007);
+}
+48% {
+ -webkit-transform: scaleY(0.984);
+}
+50% {
+ -webkit-transform: scaleY(0.977);
+}
+52% {
+ -webkit-transform: scaleY(0.981);
+}
+54% {
+ -webkit-transform: scaleY(0.995);
+}
+56% {
+ -webkit-transform: scaleY(1.007);
+}
+58% {
+ -webkit-transform: scaleY(1.012);
+}
+62% {
+ -webkit-transform: scaleY(1.004);
+}
+64% {
+ -webkit-transform: scaleY(0.997);
+}
+66% {
+ -webkit-transform: scaleY(0.994);
+}
+70% {
+ -webkit-transform: scaleY(0.997);
+}
+72% {
+ -webkit-transform: scaleY(1.001);
+}
+74% {
+ -webkit-transform: scaleY(1.003);
+}
+78% {
+ -webkit-transform: scaleY(1.002);
+}
+80% {
+ -webkit-transform: scaleY(1.000);
+}
+92% {
+ -webkit-transform: scaleY(1.001);
+}
+100% {
+ -webkit-transform: rotateX(0.000deg) rotateZ(0.000deg) scaleX(1.000) scaleY(1.000);
+	opacity: 1.000;
+}
+}
+@keyframes kitchenSink {
+0% {
+ transform: rotateX(-90.000deg) rotateZ(-90.000deg) scaleX(0.000) scaleY(0.000);
+	opacity: 0.000;
+}
+2% {
+ transform: rotateX(-67.153deg) rotateZ(-67.153deg) scaleX(0.255) scaleY(0.192);
+	opacity: 0.790;
+}
+4% {
+ transform: rotateX(-24.436deg) rotateZ(-24.436deg) scaleX(0.730) scaleY(0.635);
+	opacity: 1.000;
+}
+6% {
+ transform: rotateX(14.327deg) rotateZ(14.327deg) scaleX(1.160) scaleY(1.208);
+}
+8% {
+ transform: rotateX(22.684deg) rotateZ(22.684deg) scaleX(1.252) scaleY(1.516);
+}
+10% {
+ transform: rotateX(11.870deg) rotateZ(11.870deg) scaleX(1.132) scaleY(1.461);
+}
+12% {
+ transform: rotateX(1.433deg) rotateZ(1.433deg) scaleX(1.016) scaleY(1.239);
+}
+14% {
+ transform: rotateX(-5.434deg) rotateZ(-5.434deg) scaleX(0.940) scaleY(0.923);
+}
+16% {
+ transform: rotateX(-5.054deg) rotateZ(-5.054deg) scaleX(0.944) scaleY(0.735);
+}
+18% {
+ transform: rotateX(-1.634deg) rotateZ(-1.634deg) scaleX(0.982) scaleY(0.740);
+}
+20% {
+ transform: rotateX(0.585deg) rotateZ(0.585deg) scaleX(1.007) scaleY(0.849);
+}
+22% {
+ transform: rotateX(1.532deg) rotateZ(1.532deg) scaleX(1.017) scaleY(1.021);
+}
+24% {
+ transform: rotateX(0.972deg) rotateZ(0.972deg) scaleX(1.011) scaleY(1.135);
+}
+26% {
+ transform: rotateX(0.099deg) rotateZ(0.099deg) scaleX(1.001) scaleY(1.145);
+}
+28% {
+ transform: rotateX(-0.312deg) rotateZ(-0.312deg) scaleX(0.997) scaleY(1.092);
+}
+30% {
+ transform: scaleY(1.000);
+}
+32% {
+ transform: rotateX(-0.155deg) rotateZ(-0.155deg) scaleX(0.998) scaleY(0.933);
+}
+34% {
+ transform: rotateX(0.039deg) rotateZ(0.039deg) scaleX(1.000) scaleY(0.920);
+}
+36% {
+ transform: scaleY(0.945);
+}
+38% {
+ transform: scaleY(0.994);
+}
+40% {
+ transform: scaleY(1.033);
+}
+42% {
+ transform: scaleY(1.043);
+}
+44% {
+ transform: scaleY(1.032);
+}
+46% {
+ transform: scaleY(1.007);
+}
+48% {
+ transform: scaleY(0.984);
+}
+50% {
+ transform: scaleY(0.977);
+}
+52% {
+ transform: scaleY(0.981);
+}
+54% {
+ transform: scaleY(0.995);
+}
+56% {
+ transform: scaleY(1.007);
+}
+58% {
+ transform: scaleY(1.012);
+}
+62% {
+ transform: scaleY(1.004);
+}
+64% {
+ transform: scaleY(0.997);
+}
+66% {
+ transform: scaleY(0.994);
+}
+70% {
+ transform: scaleY(0.997);
+}
+72% {
+ transform: scaleY(1.001);
+}
+74% {
+ transform: scaleY(1.003);
+}
+78% {
+ transform: scaleY(1.002);
+}
+80% {
+ transform: scaleY(1.000);
+}
+92% {
+ transform: scaleY(1.001);
+}
+100% {
+ transform: rotateX(0.000deg) rotateZ(0.000deg) scaleX(1.000) scaleY(1.000);
+	opacity: 1.000;
+}
+}
+
+// Generated by easegen
+// Recommended Length: 3.950078999999987
+.kitchenSink {
+ 	-webkit-animation: kitchenSink 3.950s linear 0s 1 normal both;
+	-webkit-transform-origin: 50% 50%;
+	animation: kitchenSink 3.950s linear 0s 1 normal both;
+	transform-origin: 50% 50%;
+}
