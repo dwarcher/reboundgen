@@ -999,10 +999,10 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>README</title></head><body><article class="markdown-body"><h1 id="reboundgen"><a name="user-content-reboundgen" href="#reboundgen" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>reboundgen</h1>
-<p>Keyframe animation generator that uses Rebound.js</p>
+</style><title>README</title></head><body><article class="markdown-body"><h1 id="reboundgen"><a name="user-content-reboundgen" href="#reboundgen" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>ReboundGen</h1>
+<p>Keyframe animation generator built on (Facebook&rsquo;s Rebound.js)[<a href="https://github.com/facebook/rebound-js">https://github.com/facebook/rebound-js</a>]</p>
 <h2 id="examples"><a name="user-content-examples" href="#examples" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Examples</h2>
-<p>Are <a href="http://dwarcher.github.io/reboundgen/examples/">here</a></p>
+<p>See <a href="http://dwarcher.github.io/reboundgen/examples/">here</a> for a list of the &lsquo;out of the box&rsquo; animations.</p>
 <h2 id="how-to-use"><a name="user-content-how-to-use" href="#how-to-use" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>How to use</h2>
 <h4 id="easy-instructions"><a name="user-content-easy-instructions" href="#easy-instructions" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Easy instructions</h4>
 <ol>
@@ -1010,7 +1010,7 @@ body .markdown-body
 <li>SCSS files are available in the <code>dist/</code> folder. You can import the <code>_animations.scss</code> file to include all the animations.</li>
 <li>Simply put the corresponding class on the element you want to animate. For Example: <code>bounceInRight</code>. Note that for the flipping animations you may need <code>perspective: XXXXpx;</code> on the container element for the full effect.</li>
 </ol>
-<p>It&rsquo;s recommended that you comment out animations you aren&rsquo;t using from <code>_animations.scss</code>, as these animations can get quite large.</p>
+<p>It&rsquo;s recommended that you comment out animations you aren&rsquo;t using from <code>_animations.scss</code> to save on file size. If you just want to use a pre-built css file, you can find it <a href="http://dwarcher.github.io/reboundgen/dist/reboundgen.min.css">here</a> (47kb.)</p>
 <h2 id="how-to-customize-and-build-your-own-animations"><a name="user-content-how-to-customize-and-build-your-own-animations" href="#how-to-customize-and-build-your-own-animations" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>How to customize and build your own animations</h2>
 <ol>
 <li>Clone this repo <code>git clone https://github.com/dwarcher/reboundgen.git .</code></li>
@@ -1020,6 +1020,7 @@ body .markdown-body
 <li>Built animations will go into <code>dist/</code></li>
 <li>Or, you can run <code>grunt watch</code> to build whenever you make a change.</li>
 </ol>
+<p>This will build individual animations, compiled .css files and automatically add any new animations to the example page so you can see them immediately. This can be a big help for quickly developing new animations. </p>
 <p>Alertnately, you can compile from code.</p>
 <p>Install the module with: <code>npm install reboundgen</code></p>
 <pre><code class="javascript">var reboundgen = require('../lib/reboundgen.js');
@@ -1057,7 +1058,7 @@ reboundgen.generateFromFile(&quot;data/data.json&quot;)
 <h4 id="steps"><a name="user-content-steps" href="#steps" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>steps</h4>
 <p>Type: <code>Number</code><br />
 Default value: <code>50</code></p>
-<p>The number of keyframes to generate. Depending on how complex your animation becomes, you may need more or less frames.</p>
+<p>The number of keyframes to generate. In most cases you can leave this at 50, since reboundgen will remove unnecessary keyframes. However you can experiment with using lower values like 25 to save on file size.</p>
 <h4 id="name"><a name="user-content-name" href="#name" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>name</h4>
 <p>Type: <code>String</code></p>
 <p>The name of the animation and resulting .scss file. Be sure to avoid illegal characters.</p>
@@ -1102,6 +1103,14 @@ Default value: <code>0</code></p>
 <li>skewX</li>
 <li>skewY</li>
 </ul>
+<h4 id="originx"><a name="user-content-originx" href="#originx" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>originX</h4>
+<p>Type: <code>Number</code><br />
+Default value: <code>0.5</code></p>
+<p>The transform-origin x parameter in the range of 0&hellip;1.0</p>
+<h4 id="originy"><a name="user-content-originy" href="#originy" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>originY</h4>
+<p>Type: <code>Number</code><br />
+Default value: <code>0.5</code></p>
+<p>The transform-origin y parameter in the range of 0&hellip;1.0</p>
 <p>If you specify an object for the property, you can set the <code>start</code> and <code>end</code>. Additionally, any of the above parameters (friction, tension, etc.) can be overriden per property. If you don&rsquo;t specify an object and simply specify a number instead, then it is assumed that you are transitioning from 0 to the number with the default settings.</p>
 <h2 id="release-history"><a name="user-content-release-history" href="#release-history" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Release History</h2>
 <p><em>(Nothing yet)</em></p>

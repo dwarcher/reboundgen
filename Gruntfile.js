@@ -27,12 +27,22 @@ module.exports = function(grunt) {
         files: {
           'examples/styles.css': 'examples/styles.scss'
         }
+      },
+      dist: {
+        files: [{
+          'dist/reboundgen.css': 'dist/reboundgen.scss'
+        }]
       }
     },
     cssmin: {
+      testpage: {
+        files: {
+          'examples/styles.min.css': 'examples/styles.css',
+        }
+      },
       dist: {
         files: [{
-          'examples/styles.min.css': 'examples/styles.css'
+          'dist/reboundgen.min.css': 'dist/reboundgen.css'
         }]
       }
     },

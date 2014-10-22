@@ -1,10 +1,10 @@
-# reboundgen
+# ReboundGen
 
-Keyframe animation generator that uses Rebound.js
+Keyframe animation generator built on (Facebook's Rebound.js)[https://github.com/facebook/rebound-js]
 
 
 ## Examples
-Are [here](http://dwarcher.github.io/reboundgen/examples/)
+See [here](http://dwarcher.github.io/reboundgen/examples/) for a list of the 'out of the box' animations.
 
 ## How to use
 
@@ -14,7 +14,7 @@ Are [here](http://dwarcher.github.io/reboundgen/examples/)
 2. SCSS files are available in the `dist/` folder. You can import the `_animations.scss` file to include all the animations.
 3. Simply put the corresponding class on the element you want to animate. For Example: `bounceInRight`. Note that for the flipping animations you may need `perspective: XXXXpx;` on the container element for the full effect.
 
-It's recommended that you comment out animations you aren't using from `_animations.scss`, as these animations can get quite large.
+It's recommended that you comment out animations you aren't using from `_animations.scss` to save on file size. If you just want to use a pre-built css file, you can find it [here](http://dwarcher.github.io/reboundgen/dist/reboundgen.min.css) (47kb.)
 
 ## How to customize and build your own animations
 
@@ -24,6 +24,8 @@ It's recommended that you comment out animations you aren't using from `_animati
 4. Run `grunt build`
 5. Built animations will go into `dist/`
 6. Or, you can run `grunt watch` to build whenever you make a change.
+
+This will build individual animations, compiled .css files and automatically add any new animations to the example page so you can see them immediately. This can be a big help for quickly developing new animations. 
 
 Alertnately, you can compile from code.
 
@@ -69,7 +71,7 @@ This could easily be turned into a grunt or gulp plugin...
 Type: `Number`
 Default value: `50`
 
-The number of keyframes to generate. Depending on how complex your animation becomes, you may need more or less frames.
+The number of keyframes to generate. In most cases you can leave this at 50, since reboundgen will remove unnecessary keyframes. However you can experiment with using lower values like 25 to save on file size.
 
 #### name
 Type: `String`
@@ -129,6 +131,18 @@ List of properties to animate. Currently we're suppporting:
 + rotateZ
 + skewX
 + skewY
+
+#### originX
+Type: `Number`
+Default value: `0.5`
+
+The transform-origin x parameter in the range of 0...1.0
+
+#### originY
+Type: `Number`
+Default value: `0.5`
+
+The transform-origin y parameter in the range of 0...1.0
 
 If you specify an object for the property, you can set the `start` and `end`. Additionally, any of the above parameters (friction, tension, etc.) can be overriden per property. If you don't specify an object and simply specify a number instead, then it is assumed that you are transitioning from 0 to the number with the default settings.
 

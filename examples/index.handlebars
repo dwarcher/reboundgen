@@ -75,6 +75,10 @@
                     <p class="bounceInLeft">
                         Check it out on <a href="https://github.com/dwarcher/reboundgen/tree/master">github</a>
                     </p>
+
+                    <p class="glideInLeft">
+                        For Documentation, see <a href="http://dwarcher.github.io/reboundgen/README.html">here</a>.
+                    </p>
                 </div>
             </div>
             <p>
@@ -91,112 +95,6 @@
                 
             </p>
 
-
-<div style="clear: both" class="instructions-container">
-<hr/>
-<!-- from readme -->
-<h2 id="how-to-use"><a name="user-content-how-to-use" href="#how-to-use" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>How to use</h2>
-<ol>
-<li><a href="https://github.com/dwarcher/reboundgen/archive/master.zip">Download</a> this package.</li>
-<li>SCSS files are available in the <code>dist/</code> folder. You can import the <code>_animations.scss</code> file to include all the animations.</li>
-<li>Simply put the corresponding class on the element you want to animate. For Example: <code>bounceInRight</code>. Note that for the flipping animations you may need <code>perspective: XXXXpx;</code> on the container element for the full effect.</li>
-</ol>
-<p>It&rsquo;s recommended that you comment out animations you aren&rsquo;t using from <code>_animations.scss</code>, as these animations can get quite large.</p>
-<h2 id="how-to-customize-and-build-your-own-animations"><a name="user-content-how-to-customize-and-build-your-own-animations" href="#how-to-customize-and-build-your-own-animations" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>How to customize and build your own animations</h2>
-<ol>
-<li>Clone this repo <code>git clone https://github.com/dwarcher/reboundgen.git .</code></li>
-<li>Install <a href="http://gruntjs.com/getting-started">Grunt</a> if you haven&rsquo;t.</li>
-<li>Edit the <code>data/data.json</code> (see below for more details)</li>
-<li>Run &lsquo;grunt build&rsquo;</li>
-<li>Built animations will go into <code>dist/</code></li>
-</ol>
-<p>Alertnately, you can compile from code.</p>
-<p>Install the module with: <code>npm install reboundgen</code></p>
-<pre><code class="javascript">var reboundgen = require('../lib/reboundgen.js');
-
-reboundgen.generateFromFile(&quot;data/data.json&quot;)
-</code></pre>
-
-<p>This could easily be turned into a grunt or gulp plugin&hellip;</p>
-<h2 id="data-format"><a name="user-content-data-format" href="#data-format" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Data format</h2>
-<pre><code class="javascript">{ 
-    &quot;outputFolder&quot;: &quot;dist/&quot;,
-    &quot;animations&quot;: 
-    [
-        {
-            &quot;steps&quot;: 50,
-            &quot;name&quot;: &quot;bounceInRight&quot;,
-            &quot;tension&quot;: 50,
-            &quot;friction&quot;: 5,
-            &quot;fadeIn&quot;: 150,
-            &quot;hardBounce&quot;: true,
-            &quot;bounceDamp&quot;: 0.4,
-            &quot;properties&quot;: {
-                &quot;translateX&quot;: { 
-                    &quot;start&quot;: 500, 
-                    &quot;end&quot;: 0 
-                }
-            }
-        }
-    ]
-}
-</code></pre>
-
-<h4 id="steps"><a name="user-content-steps" href="#steps" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>steps</h4>
-<p>Type: <code>Number</code><br />
-Default value: <code>50</code></p>
-<p>The number of keyframes to generate. Depending on how complex your animation becomes, you may need more or less frames.</p>
-<h4 id="name"><a name="user-content-name" href="#name" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>name</h4>
-<p>Type: <code>String</code></p>
-<p>The name of the animation and resulting .scss file. Be sure to avoid illegal characters.</p>
-<h4 id="tension"><a name="user-content-tension" href="#tension" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>tension</h4>
-<p>Type: <code>Number</code><br />
-Default value: <code>30</code></p>
-<p>Tension of the spring. How quickly it snaps back.</p>
-<h4 id="friction"><a name="user-content-friction" href="#friction" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>friction</h4>
-<p>Type: <code>Number</code><br />
-Default value: <code>5</code></p>
-<p>Friction force. Slows the spring motion.</p>
-<h4 id="fadein"><a name="user-content-fadein" href="#fadein" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>fadeIn</h4>
-<p>Type: <code>Number</code><br />
-Default value: <code>0</code></p>
-<p>Time in milliseconds to fade in opacity.</p>
-<h4 id="fadeout"><a name="user-content-fadeout" href="#fadeout" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>fadeOut</h4>
-<p>Type: <code>Number</code><br />
-Default value: <code>0</code></p>
-<p>Time in milliseconds to fade out opacity.</p>
-<h4 id="hardbounce"><a name="user-content-hardbounce" href="#hardbounce" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>hardBounce</h4>
-<p>Type: <code>Boolean</code><br />
-Default value: false</p>
-<p>Instead of allowing the spring to freely oscillate, bounces the spring as if hitting a wall, when passing the target value.</p>
-<h4 id="bouncedamp"><a name="user-content-bouncedamp" href="#bouncedamp" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>bounceDamp</h4>
-<p>Type: <code>Number</code><br />
-Default value: <code>0</code></p>
-<p>Factor of velocity lost when bouncing, in the range of 0&hellip;0.99</p>
-<h4 id="properties"><a name="user-content-properties" href="#properties" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>properties</h4>
-<p>Type: <code>Object</code></p>
-<p>List of properties to animate. Currently we&rsquo;re suppporting:</p>
-<ul>
-<li>translateX</li>
-<li>translateY</li>
-<li>translateZ</li>
-<li>scaleX</li>
-<li>scaleY</li>
-<li>scaleZ</li>
-<li>rotate</li>
-<li>rotateX</li>
-<li>rotateY</li>
-<li>rotateZ</li>
-<li>skewX</li>
-<li>skewY</li>
-</ul>
-<h2 id="release-history"><a name="user-content-release-history" href="#release-history" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Release History</h2>
-<p><em>(Nothing yet)</em></p>
-<h2 id="license"><a name="user-content-license" href="#license" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>License</h2>
-<p>Copyright (c) 2014 Dave Wallin<br />
-Licensed under the BSD license.</p>
-
-</div>
         </article>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
