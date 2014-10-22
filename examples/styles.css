@@ -2368,14 +2368,16 @@ article.type-system-sans {
 div.hero-container {
   background-color: #eeeeee;
   padding-top: 10px;
-  padding-bottom: 50px;
-  margin-bottom: 60px; }
+  padding-bottom: 10px;
+  margin-bottom: 10px; }
 
 div.hero {
   min-width: 320px;
   max-width: 600px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 div.animations-container {
   margin-left: 20px;
@@ -2408,10 +2410,28 @@ div.example-container {
 
 div.animation-example {
   margin-left: auto;
-  width: 50px;
+  width: 60px;
   height: 50px;
-  background-color: #00f;
   margin-right: auto;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-radius: 10px; }
+
+div.animations-container div.example-container:nth-child(5n+0) div.animation-example {
+  background-color: #1abc9c; }
+
+div.animations-container div.example-container:nth-child(5n+1) div.animation-example {
+  background-color: #2980b9; }
+
+div.animations-container div.example-container:nth-child(5n+2) div.animation-example {
+  background-color: #e74c3c; }
+
+div.animations-container div.example-container:nth-child(5n+3) div.animation-example {
+  background-color: #e67e22; }
+
+div.animations-container div.example-container:nth-child(5n+4) div.animation-example {
+  background-color: #27ae60; }
+
+div.animations-container div.example-container:nth-child(5n+5) div.animation-example {
+  background-color: #8e44ad; }
 
 /*# sourceMappingURL=styles.css.map */
