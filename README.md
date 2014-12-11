@@ -1,6 +1,6 @@
 # ReboundGen
 
-Keyframe animation generator built on [Facebook's Rebound.js](https://github.com/facebook/rebound-js)
+SASS/CSS3 Keyframe animation generator built on [Facebook's Rebound.js](https://github.com/facebook/rebound-js). Similar to [Animate.css](http://daneden.github.io/animate.css/)
 
 
 ## Examples

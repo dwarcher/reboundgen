@@ -435,6 +435,63 @@
 					"end": 1.00 
 				}
 			}
+		},
+		{
+			"name": "flyInBottom",
+			"tension": 10,
+			"friction": 5,
+			"fadeIn": 200,
+			"bounceDamp": 0.5,
+			"originX": 0.5,
+			"originY": 1.0,
+			"properties": {
+				"rotateX": { 
+					"start": 30, 
+					"end": 0.0
+				},
+				"translateZ": { 
+					"start": -100, 
+					"end": 0 
+				}
+			}
+		},
+		{
+			"name": "flyInLeft",
+			"tension": 10,
+			"friction": 5,
+			"fadeIn": 200,
+			"bounceDamp": 0.5,
+			"originX": 0.5,
+			"originY": 1.0,
+			"properties": {
+				"rotateY": { 
+					"start": 30, 
+					"end": 0.0
+				},
+				"translateZ": { 
+					"start": -100, 
+					"end": 0 
+				}
+			}
+		},
+		{
+			"name": "flyInRight",
+			"tension": 10,
+			"friction": 5,
+			"fadeIn": 200,
+			"bounceDamp": 0.5,
+			"originX": 0.5,
+			"originY": 1.0,
+			"properties": {
+				"rotateY": { 
+					"start": -30, 
+					"end": 0.0
+				},
+				"translateZ": { 
+					"start": -100, 
+					"end": 0 
+				}
+			}
 		}
 	]
 }
